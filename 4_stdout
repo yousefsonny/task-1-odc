@@ -1,0 +1,6 @@
+stdout :
+         Used for normal program output, such as results, messages, or data that the program intends to display to the user.
+         Can be redirected to files or other programs using the > operator.
+stderr : 
+         Used for error messages, warnings, and diagnostic information that the program wants to convey to the user, often separately from normal output.
+         Can be redirected to files or other programs using the 2> operator.
