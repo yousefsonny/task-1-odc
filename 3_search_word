@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "enter the file name"
+read file
+echo"enter the word"
+read word
+count=$( grep -o "$word" $file | wc -l )
+echo "the word '$word' appeard $conut times in '$file' "
